@@ -111,6 +111,10 @@ article {
     padding-bottom: 20px;
 }
 
+.Welcome h2 {
+    margin-top: 0px;
+}
+
 .Welcome img {
     width: 250px;
     margin: 0px 35px;
