@@ -1,0 +1,384 @@
+body {
+    background: #011140;
+    margin: 0;
+    font-family: "Thasadith";
+    color: #C7D989;
+}
+
+header {
+    padding: 20px;
+    text-align: center;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    align-items: flex-end;
+}
+
+.header-banner {
+    flex: 2 2;
+}
+
+.logo {
+    padding: 10px;
+    width: 100%;
+}
+
+nav {
+    flex: 3 3;
+    padding: 20px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: flex-end;
+
+}
+
+.button {
+    font-size: 18pt;
+    font-style: italic;
+    color: #C7D989;
+    text-align: center;
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    align-items: center;
+}
+
+.button:hover {
+    color: #EFBAC2;
+}
+
+.button img {
+    max-height: 50px;
+    z-index: 0;
+}
+
+/* In the three sections below, I was trying to get the text in the button to overlap the side images, but no luck. I decided to just leave it in, even though it's not quite working as intended. */
+
+.buttonUL {
+    margin-right: -10;
+    align-self: flex-start;
+    justify-self: flex-start;
+    background-color: #011140;
+}
+
+.buttonBR {
+    margin-left: -10;
+    align-self: flex-end;
+    justify-self: flex-end;
+    background-color: #011140;
+}
+
+.button div {
+    z-index: 1;
+    background-color: #011140;
+    align-self: center;
+    justify-self: center;
+}
+
+/*Got this below from StackOverflow to get rid of the lines on the links: https://stackoverflow.com/a/2789750*/
+a:hover,
+a:visited,
+a:link,
+a:active {
+    text-decoration: none;
+}
+
+main {
+    padding: 5px 60px;
+    font-size: 16pt;
+}
+
+h2 {
+    color: #C7D989;
+    font-size: 35pt;
+    font-style: italic;
+}
+
+article {
+    margin-top: 50px;
+}
+
+.Welcome {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: flex-start;
+    padding-bottom: 20px;
+}
+
+.Welcome img {
+    width: 250px;
+    margin: 0px 35px;
+
+}
+
+#welcomecontent {
+    display: flex;
+    flex-direction: row-reverse;
+    align-items: flex-start;
+}
+
+.card {
+    color: #C7D989;
+    background-image: url(CardBackground_1@4x.png);
+    background-size: contain;
+    background-repeat: no-repeat;
+    width: 260px;
+    height: 340px;
+    padding: 30px;
+    margin: 10px 0px;
+    display: flex;
+    flex-direction: column;
+    align-content: flex-start;
+    font-size: 16px;
+    border-radius: 50px;
+}
+
+.card h3 {
+    font-size: 18px;
+}
+
+.card:hover {
+    background-color: #010626;
+}
+
+.card:hover h3 {
+    color: #EFBAC2;
+}
+
+.thumbnail img {
+    max-width: 100%;
+    border-radius: 60px;
+}
+
+.ProjectCards {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    align-items: flex-start;
+    height: fit-content;
+    margin: 30px 0px;
+}
+
+.projectcard {
+    max-width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    flex-wrap: wrap;
+    border-bottom: solid #C7D989;
+    padding-bottom: 50px;
+
+}
+
+#P5 {
+    border-bottom: none;
+}
+
+.projectcard h3 {
+    font-size: 22pt;
+}
+
+.skillsclientaudience {
+    display: flex;
+    justify-content: space-evenly;
+
+}
+
+.skillsclientaudience div {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    min-width: 20%;
+    margin-right: 35px;
+}
+
+.sample {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+}
+
+ul {
+    margin-top: 0px;
+    margin-left: -5px;
+}
+
+.projectphoto {
+    align-self: center;
+    height: 200px;
+    width: 200px;
+    border-radius: 20px;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+#projectphoto1 {
+    background-image: url(JRCThumbnail.png);
+}
+
+#projectphoto2 {
+    background-image: url(MPAThumbnail.png);
+}
+
+#projectphoto3 {
+    background-image: url(APNThumbnail.png);
+}
+
+#projectphoto4 {
+    background-image: url(LELAThumbnail.png);
+}
+
+#projectphoto5 {
+    background-image: url(DataAware_Group800.jpg);
+}
+
+.photos {
+    display: flex;
+    max-width: 100%;
+    height: 400px;
+    flex-direction: row;
+    overflow: scroll;
+    justify-content: space-evenly;
+    align-items: flex-start;
+    scrollbar-color: #C7D989 #010626;
+
+}
+
+.photo img {
+    height: 350px;
+    border-top: solid #C7D989;
+    border-right: solid #C7D989;
+    border-radius: 20px;
+    margin: 10px;
+}
+
+iframe {
+    margin-top: 25px;
+    max-width: 90%;
+}
+
+u {
+    color: #C7D989;
+}
+
+u:hover {
+    color: #EFBAC2;
+}
+
+footer {
+    margin-top: 60px;
+    display: flex;
+    justify-content: flex-start;
+    align-items: flex-start;
+    border-top: solid #C7D989;
+}
+
+footer div {
+    padding: 60px;
+}
+
+footer p {
+    color: #C7D989;
+}
+
+footer a>p:hover {
+    color: #EFBAC2
+}
+
+@media (max-width: 850px) {
+
+    header {
+        flex-direction: column;
+        align-items: flex-start;
+    }
+
+    .logo {
+        max-width: 400px;
+    }
+
+    nav {
+        flex-wrap: wrap;
+    }
+
+    nav div {
+        margin: 5px;
+        flex-shrink: 1;
+    }
+
+    #welcomecontent {
+        display: flex;
+        flex-direction: column;
+    }
+
+    #welcomecontent img {
+        margin: 15px 0px;
+    }
+
+    .skillsclientaudience {
+        display: flex;
+        flex-direction: column;
+        align-items: flex-start;
+        flex-wrap: wrap;
+
+    }
+
+    .projectphoto {
+        align-self: auto;
+    }
+
+    .skillsclientaudience div {
+        max-width: 100%;
+    }
+
+}
+
+
+@media (max-width: 550px) {
+
+
+    main {
+        padding: 5px 15px;
+    }
+
+    footer {
+        flex-direction: column-reverse;
+    }
+
+    footer div {
+        padding: 20px;
+    }
+
+    .card {
+        width: 230px;
+        height: 300px;
+        padding: 25px 20px;
+        margin: 15px 0px;
+        overflow: hidden;
+
+    }
+
+    /*Below is a solution from StackOverflow I found to cut off text after a few lines with ellipsis. I know webkit doesn't work on every browser, but I don't yet have the ability to do this otherwise. https://stackoverflow.com/questions/5269713/css-ellipsis-on-second-line*/
+    .card span {
+        overflow: hidden;
+        text-overflow: ellipsis;
+        display: -webkit-box;
+        -webkit-line-clamp: 5;
+        -webkit-box-orient: vertical;
+        padding-right: 10px;
+    }
+
+    .photos {
+        flex-direction: column;
+        height: fit-content;
+        overflow: auto;
+    }
+
+    .photo img {
+        max-width: 90%;
+        height: auto;
+    }
+}
