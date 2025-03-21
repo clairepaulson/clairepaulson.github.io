@@ -343,6 +343,13 @@ footer a>p:hover {
 
 @media (max-width: 550px) {
 
+    header {
+        padding: 5px;
+    }
+
+    .logo {
+        padding: 10px 0px;
+    }
 
     main {
         padding: 5px 15px;
